@@ -1,0 +1,168 @@
+body
+{
+  padding-top: 70px;
+  background-color: rgba(238, 238, 238, 0.70);
+
+}
+
+body.homepage{
+  padding-top: 70px;
+  background-image: url("http://karakoctour.com/wp-content/uploads/2014/03/destinations-biennale-istanbul-hero.jpg");
+  background-size: 110%;
+}
+
+.jumbotron{
+  background-color: rgba(238, 238, 238, 0.70) ;
+}
+
+.container h1:first-of-type{
+
+  margin-top: 0px;
+
+}
+
+/* Red */
+$bgDefault      : #e74c3c;
+$bgHighlight    : #c0392b;
+$colDefault     : #ecf0f1;
+$colHover       : #ffbbbc;
+/* Green * /
+$bgDefault      : #2ecc71;
+$bgHighlight    : #27ae60;
+$colDefault     : #ecf0f1;
+$colHover       : #d1ffed; /*/
+/* Purple * /
+$bgDefault      : #9b59b6;
+$bgHighlight    : #8e44ad;
+$colDefault     : #ecf0f1;
+$colHover       : #ecdbff; /*/
+/* Orange * /
+$bgDefault      : #e67e22;
+$bgHighlight    : #d35400;
+$colDefault     : #ecf0f1;
+$colHover       : #ffe6d1; /*/
+
+
+/* --- Style --- */
+.navbar-default {
+  background-color: $bgDefault;
+  border-color: $bgHighlight;
+  .navbar-brand {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: $colHover; }}
+  .navbar-nav {
+    > li {
+      > a {
+        color: $colDefault;
+        &:hover, &:focus {
+          color: $colHover;   }}}
+    .active {
+      > a, > a:hover, > a:focus {
+        color: $colHover;
+        background-color: $bgHighlight; }}
+    .open {
+      > a, > a:hover, > a:focus {
+        color: $colHover;
+        background-color: $bgHighlight;
+        .caret {
+          border-top-color: $colHover;
+          border-bottom-color: $colHover; }}}
+    > .dropdown {
+      > a {
+        .caret {
+          border-top-color: $colDefault;
+          border-bottom-color: $colDefault; }
+        &:hover, &:focus {
+          .caret {
+            border-top-color: $colHover;
+            border-bottom-color: $colHover; }}}}}
+  .navbar-toggle {
+    border-color: $bgHighlight;
+    &:hover, &:focus {
+      background-color: $bgHighlight; }
+    .icon-bar {
+      background-color: $colDefault; }}}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: $colHover;
+      background-color: $bgHighlight; }}
+}
+
+/* --- Gravatar --- */
+
+.nav-gravatar{
+  float: left;
+  position: relative;
+  top: -6px;
+  left: -8px;
+  border: 1px solid #555;
+}
+
+
+/* --- The 'Publish Status' Area --- */
+
+.status-post{
+  border: 1px solid #e3e3e3;
+  background: white;
+  margin-bottom: 3em;
+  padding:0px;
+
+  textarea{
+
+    border:1px;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+}
+
+
+
+/* --- Status Design --- */
+
+.status-media{
+
+  border: 1px solid #e3e3e3;
+  background: white;
+  padding: 1em;
+  margin-bottom: 1em;
+
+}
+.status-post-submit{
+
+  border-top: 1px solid #e9e9e9;
+  padding: .5em 1em;
+  margin-bottom: 0;
+  overflow: hidden;
+  .btn { float:right; }
+
+
+}
+
+/* --- Users List --- */
+.users{
+  margin-bottom: 3em;
+}
+.user-block{
+
+  text-align: center;
+
+  .avatar{
+    margin:auto;
+    width: 70px;
+  }
+
+}
+
+.homepage{
+
+
+  background-image: url("http://images.forwallpaper.com/files/images/4/4cae/4cae7713/516334/evening-in-istanbul.jpg");
+
+}
+

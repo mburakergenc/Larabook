@@ -1,0 +1,24 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: mburakergenc
+ * Date: 11/15/14
+ * Time: 12:53 PM
+ */
+
+namespace Larabook\Registration\Events;
+
+
+use Larabook\Users\User;
+
+class UserRegistered {
+
+    public $user;
+
+    function __construct(User $user)
+    {
+        $this->user = $user;
+    }
+
+
+} 
